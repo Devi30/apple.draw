@@ -38,10 +38,7 @@ to_number=Number(content)
 function setup() {
  screenwidth=window.innerWidth;
  screenheight=window.innerHeight;
- createCanvas();{
-  screenwidth=150;
-  screenheight=150;
- }
+ createCanvas(screenwidth,screenheight);
 }
 
 function draw() {
